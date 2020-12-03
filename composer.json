@@ -1,0 +1,14 @@
+{
+    "name": "pinto/quest-composer",
+    "description": "Quest composer autoload",
+    "authors": [
+        {
+            "name": "pinto78600",
+            "email": "pintostephane92@hotmail.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"App\\" : "src/"}
+    },
+    "require": {}
+}
