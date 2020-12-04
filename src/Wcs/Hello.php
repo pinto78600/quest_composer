@@ -3,7 +3,7 @@ namespace App\Wcs;
 
 class Hello 
 {
-    public function __construct()
+    static function talk()
     {
       echo 'Hello World';
     }
