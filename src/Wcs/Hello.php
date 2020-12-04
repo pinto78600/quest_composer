@@ -3,8 +3,8 @@ namespace App\Wcs;
 
 class Hello 
 {
-    static function talk()
+    static function talk(): string
     {
-      echo 'Hello World';
+      return 'Hello World';
     }
 }

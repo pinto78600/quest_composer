@@ -1,4 +1,4 @@
 <?php
 require  dirname(__DIR__). '/vendor/autoload.php';
 
-App\Wcs\Hello::talk();
+echo App\Wcs\Hello::talk();
